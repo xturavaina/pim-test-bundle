@@ -1,0 +1,17 @@
+{
+    "name": "roger/roger-bundle",
+    "description": "El boto que tots estavem esperant",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roger",
+            "email": "roger@nacento.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Roger\\Bundle\\RogerBundle\\": ""
+        }
+    }
+}

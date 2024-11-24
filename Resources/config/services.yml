@@ -1,0 +1,15 @@
+services:
+  _defaults:
+      autowire: true
+      autoconfigure: true
+      public: false
+
+  Roger\Bundle\RogerBundle\:
+      resource: '../../*'
+      exclude: '../../{Entity,Migrations,Tests}'
+
+  roger.form_extensions:
+      class: Akeneo\Platform\Bundle\UIBundle\Form\Loader
+      arguments:
+          - '@service_container'
+          - '%pim_catalog.form_extensions%'

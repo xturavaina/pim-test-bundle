@@ -1,0 +1,10 @@
+extensions:
+  pim-product-edit-custom-button:
+    module: roger/js/custom-button
+    parent: pim-product-edit-form
+    targetZone: buttons
+    position: 150
+    options:
+        label: 'el boton que todos deseabamos'
+        iconName: 'plus'
+        className: 'AknButton AknButton--apply custom-button'
