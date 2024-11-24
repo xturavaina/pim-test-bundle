@@ -1,17 +1,17 @@
 {
-    "name": "roger/roger-bundle",
+    "name": "xtura/roger-bundle",
     "description": "El boto que tots estavem esperant",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Roger",
-            "email": "roger@nacento.com"
+            "name": "xtura",
+            "email": "xtura@nacento.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Roger\\Bundle\\RogerBundle\\": ""
+            "Xtura\\Bundle\\RogerBundle\\": ""
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Roger\Bundle\RogerBundle;
+namespace Xtura\Bundle\RogerBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
@@ -13,6 +13,6 @@ class RogerBundle extends Bundle
 
   public function getPath(): string
   {
-      return \dirname(__DIR__, 3).'/Roger/Bundle/RogerBundle';
+      return \dirname(__DIR__, 3).'/Xtura/Bundle/RogerBundle';
   }
 }
