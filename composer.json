@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Xtura\\Bundle\\RogerBundle\\": ""
+            "Xtura\\Bundle\\RogerBundle\\": "src/"
         }
     }
 }
