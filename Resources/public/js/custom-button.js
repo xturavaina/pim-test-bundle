@@ -14,7 +14,6 @@ define([
        * {@inheritdoc}
        */
       initialize: function (config) {
-        // No cal assignar this.config, ja que Akeneo assigna config.options a this.options
         BaseForm.prototype.initialize.apply(this, arguments);
         console.log('Options:', this.options);
     },  
@@ -31,10 +30,11 @@ define([
             </button>
         `);
     
-        this.getFormData().then(productData => {
-          console.log('Dades del producte:', productData);
-          // this.updateProductToMagento(productData);
-      });
+        // Obtenim directament les dades del formulari
+        const productData = this.getFormData();
+        console.log('Dades del producte:', productData);
+        // Si cal, crida la funció per actualitzar a Magento
+        // this.updateProductToMagento(productData);
     
         return this;
     }
