@@ -1,10 +1,10 @@
 <?php
 
-namespace Roger\Bundle\RogerBundle;
+namespace Xtura\Bundle\XturaBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class RogerBundle extends Bundle
+class XturaBundle extends Bundle
 {
   public function getPublicDir(): string
   {
@@ -13,6 +13,6 @@ class RogerBundle extends Bundle
   // comentem per prova path
   // public function getPath(): string
   // {
-  //     return \dirname(__DIR__, 3).'/Roger/Bundle/RogerBundle';
+  //     return \dirname(__DIR__, 3).'/Xtura/Bundle/XturaBundle';
   // }
 }

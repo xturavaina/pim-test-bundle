@@ -1,5 +1,5 @@
 <?php
-namespace Roger\Bundle\RogerBundle\Controller;
+namespace Xtura\Bundle\XturaBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
