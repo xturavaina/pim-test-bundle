@@ -11,8 +11,8 @@ class RogerBundle extends Bundle
       return __DIR__ . '/Resources/public';
   }
 
-  public function getPath(): string
-  {
-      return \dirname(__DIR__, 3).'/Roger/Bundle/RogerBundle';
-  }
+  // public function getPath(): string
+  // {
+  //     return \dirname(__DIR__, 3).'/Roger/Bundle/RogerBundle';
+  // }
 }
