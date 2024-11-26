@@ -31,10 +31,10 @@ define([
             </button>
         `);
     
-        this.$el.off('click').on('click', () => {
-            console.log('Custom button clicked!');
-            // Lògica quan es fa clic
-        });
+        this.getFormData().then(productData => {
+          console.log('Dades del producte:', productData);
+          // this.updateProductToMagento(productData);
+      });
     
         return this;
     }
