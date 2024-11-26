@@ -1,4 +1,4 @@
 
 config:
   paths:
-      xtura/js/custom-button: xtura/js/custom-button
+      roger/js/custom-button: roger/js/custom-button

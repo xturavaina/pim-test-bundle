@@ -4,11 +4,11 @@ services:
       autoconfigure: true
       public: false
 
-  Xtura\Bundle\RogerBundle\:
+  Roger\Bundle\RogerBundle\:
       resource: '../../*'
       exclude: '../../{Entity,Migrations,Tests}'
 
-  xtura.form_extensions:
+  roger.form_extensions:
       class: Akeneo\Platform\Bundle\UIBundle\Form\Loader
       arguments:
           - '@service_container'

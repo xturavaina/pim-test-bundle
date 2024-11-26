@@ -1,6 +1,6 @@
 extensions:
   pim-product-edit-custom-button:
-    module: xtura/js/custom-button
+    module: roger/js/custom-button
     parent: pim-product-edit-form
     targetZone: buttons
     position: 150

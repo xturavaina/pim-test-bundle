@@ -1,6 +1,6 @@
 <?php
 
-namespace Xtura\Bundle\RogerBundle\DependencyInjection;
+namespace Roger\Bundle\RogerBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
