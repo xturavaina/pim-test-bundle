@@ -1,5 +1,5 @@
 {
-    "name": "xtura/roger-bundle",
+    "name": "roger/roger-bundle",
     "description": "El boto que tots estavem esperant",
     "type": "symfony-bundle",
     "license": "MIT",
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Xtura\\Bundle\\RogerBundle\\": ""
+            "Roger\\Bundle\\RogerBundle\\": ""
         }
     }
 }
