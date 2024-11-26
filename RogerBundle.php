@@ -10,7 +10,7 @@ class RogerBundle extends Bundle
   {
       return __DIR__ . '/Resources/public';
   }
-
+  // comentem per prova path
   // public function getPath(): string
   // {
   //     return \dirname(__DIR__, 3).'/Roger/Bundle/RogerBundle';
